@@ -21,7 +21,7 @@ const Login = () => {
   let location = useLocation();
   let { from } = location.state || { from: { pathname: "/" } };
 
-  // Function to handle google signIN
+  // Function to handle google signin
   const googleSignIn = () => {
     handleGoogleSignIn().then((res) => {
       setLoggedInUser(res);

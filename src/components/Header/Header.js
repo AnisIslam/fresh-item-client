@@ -60,16 +60,6 @@ const Header = () => {
                 </Nav.Link>
               </>
             )}
-{/* 
-            {loggedInUser.email === "manisul1997bd@gmail.com" && (
-              <Nav.Link
-                onClick={() => history.push("/adminHome")}
-                className="btn btn-info"
-              >
-                Admin
-              </Nav.Link>
-            )} */}
-
           </Nav>
         </Navbar.Collapse>
       </Navbar>

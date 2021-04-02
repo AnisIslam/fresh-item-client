@@ -13,10 +13,7 @@ const AdminHome = () => {
     return (
         <div className='container'>
             <Button onClick={() => history.push("/addProduct")} variant="danger">Add Product </Button> <span> </span>
-            <Button onClick={() => history.push("/manageProduct")} variant="info">Manage Product</Button>
-            {/* <button onClick={() => history.push("/addProduct")}> Add Product</button> */}
-            {/* <button onClick={() => history.push("/manageProduct")}>Manage Product</button> */}
-
+            <Button onClick={() => history.push("/manageProduct")} variant="info">Manage Product</Button>         
         </div>
     );
 };

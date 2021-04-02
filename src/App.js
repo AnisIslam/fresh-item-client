@@ -29,10 +29,8 @@ function App(props) {
       <p>{loggedInUser.email}</p>
       <Router>
         <Header></Header>
+
         <Switch>
-
-
-
           <Route path="/login">
             <Login></Login>
           </Route>
@@ -44,10 +42,6 @@ function App(props) {
           <Route path="/orders">
             <Order></Order>
           </Route>
-
-          {/* <Route path="/admin">
-            <AddProduct></AddProduct>
-          </Route> */}
 
           <PrivateRoute path="/addProduct">
             <AddProduct></AddProduct>
@@ -79,7 +73,7 @@ function App(props) {
           <Route path="*">
             <Notfound></Notfound>
           </Route>
-
+          
         </Switch>
 
       </Router>

@@ -9,7 +9,6 @@ const Product = ({ product }) => {
 
     const handleBuyNowButton = (product) => {
         history.push(`/checkOut/${product.name}`);
-
     
     }
 
