@@ -1,0 +1,17 @@
+.product{
+    border: 1px solid lightblue;
+    border-radius: 1em;
+    /* margin: 1px; */
+    align-items: center;
+    justify-content: center;
+    background-color: lightcyan;
+    
+}
+h3{
+    color: rgb(19, 81, 102);
+    background-color: rgb(150, 207, 207);
+}
+h4{
+    color: rgb(138, 86, 65);
+    
+}
