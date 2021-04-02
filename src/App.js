@@ -65,15 +65,15 @@ function App(props) {
 
           </PrivateRoute>
 
-          <Route path="/order">
+          <PrivateRoute path="/order">
             <Order></Order>
 
-          </Route>
+          </PrivateRoute>
 
           <Route path="*">
             <Notfound></Notfound>
           </Route>
-          
+
         </Switch>
 
       </Router>
